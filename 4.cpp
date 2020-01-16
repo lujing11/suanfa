@@ -9,10 +9,10 @@ int weight[MAX]; //物品质量
 int m[MAX][MAX]; //解的容器
 void Input()
 {
-    printf("请输入物品个数n和包的容量c");
+    
     scanf("%d %d", &n, &c);//输入物品个数，包的容量
     for(int i = 1; i <= n; ++i)
-        printf("请输入物品的价值value，物品质量weight");
+       
         scanf("%d %d", &value[i], &weight[i]);//输入物品的价值，物品质量
     
 }
